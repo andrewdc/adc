@@ -1,0 +1,14 @@
+siteTitle = "Andrew Colclough - Designer, Developer, Illustrator"
+siteDescr = "Stay a while, and listen..."
+siteAuthor = "Andrew Colclough"
+
+siteTwitterUrl = "https://twitter.com/wtc"
+siteGithubUrl = "https://github.com/andrewdc"
+siteEmailUrl = "andrew.design@gmail.com"
+
+siteInstagram = "https://www.instagram.com/bullet_and_whiskey/"
+siteLinkedin = "https://www.linkedin.com/in/andrewdc"
+
+googleAnalyticsId = ""
+
+linkPrefix = "/gatsby-starter-lumen"

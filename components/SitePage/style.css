@@ -1,0 +1,38 @@
+.blog-page {
+	margin-bottom: 40px;
+}
+.blog-page h1 {
+	font-size: responsive 20px 36px;
+	margin-top: 0;
+}
+.blog-page p {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 26px;
+}
+@media (max-width:900px) {
+	.blog-single .text, .blog-single .footer {
+		padding: 0 15px;
+	}
+}
+.mast {
+  height:30vh;
+  margin-bottom:30px;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.grid > a {
+  display: block;
+  margin-bottom: 30px;
+  flex:1 0 auto;
+  margin-right:30px;
+}
+.grid img {
+  max-height:200px;
+}
