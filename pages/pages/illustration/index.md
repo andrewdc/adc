@@ -4,37 +4,6 @@ layout: page
 path: "/illustration"
 mast: "ill.jpg"
 ---
-<div class='grid'>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/350x150" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/250x50" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/350x200" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/250x150" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/350x150" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/250x200" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/350x150" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/350x250" />
-  </a>
-  <a href="/illustration/inktober/">
-    <img src="http://placehold.it/250x150" />
-  </a>
-</div>
-
-***
 
 ## [Lonely Lenny from Inktober 2016](./len/)
 

@@ -12,6 +12,7 @@ mast: "deep-field.jpeg"
 
 First of all — for the non-readers, here is the pattern. Take it. Care for it.
 
+![The Pattern](./pattern.png)
 _An OO mind-melding of SMACSS and BEM using Sass. (wut?)_
 
 Second — you must read: “How to Scale and Maintain Legacy CSS with Sass and SMACSS” by Ben Smithett. A lot of what I am about to write is directly inspired by his work to integrate OO ideas with SMACSS and BEM using Sass. And it’s not like I whipped all of this together myself (psssha — as if). I have a great team of front-end folks who have helped make this possible.
@@ -28,6 +29,7 @@ If you are like me, a designer/dev, you are constantly attempting to solve user 
 
 At some point, you may hit upon an ideal UI/UX approach for handling one of these scenarios.
 
+![Best Interface Ever](./interfacelol.gif)
 _Mistype your password again! I dare you, I double dare you…_
 
 Sweet story bro. Now, let’s suppose that you want to extend this idea across your organization and suite of apps so that the general experience is the same each time this scenario is addressed.
@@ -194,7 +196,7 @@ So… my current approach is using a double-class model (My goal is to avoid mor
   ...
 }
 ```
-Typically the object state is related enough to the object that I would know to look in the object file (_beer.scss) if I need to alter the state styles. If I can’t find it there — then the only other place it should be is in the global _states.scss. Organization, and collision protection Boom.
+Typically the object state is related enough to the object that I would know to look in the object file (`_beer.scss`) if I need to alter the state styles. If I can’t find it there — then the only other place it should be is in the global `_states.scss`. Organization, and collision protection Boom.
 
 Great. Now I’m thirsty.
 
@@ -204,7 +206,9 @@ It’s important not to over-think or “over-modulize” everything. Every piec
 Break something into a module only if it would be useful in another context. Everything else remains an element or component inside a module.
 You will no-doubt define your own internal guideline for this. The exception is that most apps will have several modules that are entirely app specific and really don’t lend well to re-use.
 
-Here’s whatever I happen to have up at the moment
+![Structure](./editor.png)
+_Here’s whatever I happen to have up at the moment_
+
 Discount and discount-manager are not really modules that another app can use. Button, date-picker, and toggle, however, are great candidates.
 Make sense? I didn't cover the base files, but again, that strategery is covered pretty well by the article you should have also read.
 For my next trick, I shall package up these objects/modules using Bower so that I can easily pull them into any project, and document them in a company-wide design system. But not in this post because: Tooooo Loooooong.

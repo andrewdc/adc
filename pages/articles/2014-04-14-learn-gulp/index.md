@@ -53,7 +53,7 @@ As I said, Gulp tasks can be collections of plugins, but you can think of them l
 
 Got that? Now see if you can map that concept to the real code which executes these jobs in exactly that order:
 
-_Sorry Medium, I want code highlighting_
+![Gulp Flow](./gulp.png)
 
 If you aren’t familiar with this type of code, here’s the longer explanation.
 The core plugin for this job is gulp-file-include. It grabs files and plops them wherever you place an `@@include`. In my index.tpl.html file I have stuff like:
@@ -83,6 +83,7 @@ I follow a simple naming convention for template files to keep me from confusing
 Partial files follow the standard naming convention using an underscore like `_nav.html.`
 
 ## Naming the task
+
 ```js
 gulp.task('fileinclude', function() {
 ```
@@ -143,6 +144,7 @@ That task is complete.
 
 Now that I have explained the fileinclude task, a task for compiling Sass should look pretty familiar:
 
+![Sass Task](./sass-compile.png)
 _Different, but the same_
 
 This uses a different collection of gulp plugins, but works in exactly the same manner. The core plugin for compiling Sass is gulp-sass (which uses Libsass), and you may note we pass it a couple of formatting options (e.g. style: ‘expanded’). The plugin gulp-autoprefixer totally pwns browser prefixing so I don’t have to worry about that in my Sass files. The task outputs into my /css directory, tells the browser to reload, and again, messages me that it worked.
@@ -151,7 +153,8 @@ This uses a different collection of gulp plugins, but works in exactly the same 
 
 We definitely want a quick way to look at what we are building. For this I use a server plugin called gulp-connect:
 
-Port 1337…really? What kind of dorky nerd…oh yeah. We are talking about programming. nm.
+![Preview Server](./preview-server.png)
+_Port 1337…really? What kind of dorky nerd…oh yeah. We are talking about programming. nm._
 
 This task is simply called connect, and it will serve up whatever files you target from your project to http://localhost:1337. Of course you can serve your stuff to whatever port number you choose. I can’t totally remember, but I think I disabled livereload for this task because I was having trouble getting it to work the way I wanted — and I ended up calling it in my watch task later. Speaking of…
 
@@ -160,7 +163,8 @@ This task is simply called connect, and it will serve up whatever files you targ
 Where normal tasks run on command and stop when finished, the point of a watch task is to run constantly, watching for changes to certain files (e.g. Saving a Sass file) and then kick off other tasks, such as the ones we have already created. Having a solid watch task can greatly increase the efficiency of your workflow. Why waste time manually running tasks or reloading your browser when you can automate?
 My watch task has two parts, because I prefer to use Libsass, but certain features of Sass 3.3.4 are not fully implemented. In my project I have another task called rubysass which uses Ruby to compile. At this point I want to be able to use either as needed. This is a great demonstration of the power of Gulp since you can write straight Javascript. Rather than have two nearly identical watch tasks, I create a function and pass it which Sass compile task to use:
 
-I can pass in different tasks to this watch function. One uses Ruby Sass, one uses Libsass.
+![Watch Task](./watchstuff.png)
+_I can pass in different tasks to this watch function. One uses Ruby Sass, one uses Libsass._
 
 ```js
 function watchStuff(task) {
@@ -195,7 +199,8 @@ Note that I am not doing anything in my watch function but running other tasks. 
 
 Lastly, we need to create two other tasks that tell my watchStuff function which Sass compile task I want my to use.
 
-My default task is Libsass because I would like to use it as soon as it is updated. My alternate uses Ruby Sass.
+![Live Reload is a pain, but worth it](./live-reload.png)
+_My default task is Libsass because I would like to use it as soon as it is updated. My alternate uses Ruby Sass._
 
 The first task, just called watch runs the watchStuff function and passes in the Sass task we wrote above. The rubywatch runs another similar task (I haven’t shown here) that simply uses a different Sass compiler.
 
@@ -203,7 +208,8 @@ The first task, just called watch runs the watchStuff function and passes in the
 
 All of these tasks are great, but as I said in the beginning, we really don’t want to have to run each of them separately every time we want something done. Let’s create a master task to kick off our other tasks for us.
 
-Default to the most common and most useful collection of tasks.
+![Default Task](./default-task.png)
+_Default to the most common and most useful collection of tasks._
 
 It is always a good idea to have a default gulp task. This is the task which runs by simply entering gulp without any taskname. I set my most commonly used tasks as my default. Therefore, I start by running the fileinclude task first to make sure the latest html changes are rendered. Next I do the same with my Sass files. After that I start up my preview server at http://localhost:1337 with connect. Finally I kick off my default watch which will start Livereload and continue to automatically run my fileinclude and sass tasks.
 
