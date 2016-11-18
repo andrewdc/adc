@@ -15,7 +15,7 @@ class SitePage extends React.Component {
         const post = route.page.data
         var banner;
         if (post.mast) {
-          banner = <div className="mast" style={{ backgroundImage: 'url(' + prefixLink(post.mast) + ')' }}> </div>
+          banner = <div className="mast" style={{ backgroundImage: 'url(./' + post.mast + ')' }}> </div>
         }
         return (
             <div>
