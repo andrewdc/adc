@@ -42,7 +42,7 @@ class SiteIndex extends React.Component {
                   <div className='main'>
                     <div className='main-inner'>
                       <div className='featured-work grid'>
-                        <a href="./illustration/len/">
+                        <a href={prefixLink('/illustration/len/')}>
                           <img src='./illustration/len/20161017_071731.jpg' />
                         </a>
                       </div>
