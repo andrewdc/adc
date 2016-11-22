@@ -37,15 +37,20 @@ class SiteIndex extends React.Component {
         return (
             <DocumentTitle title={ config.siteTitle }>
               <div>
+                <div className="mast" style={{backgroundImage:'url(./pages/about/homeMast.jpeg)'}}></div>
                 <SiteSidebar {...this.props}/>
                 <div className='content'>
                   <div className='main'>
                     <div className='main-inner'>
                       <div className='featured-work grid'>
                         <a href={prefixLink('/illustration/len/')}>
-                          <img src='./illustration/len/20161017_071731.jpg' />
+                          <img src='./feat-lonelylenny.png' />
+                        </a>
+                        <a href={prefixLink('/design/')}>
+                          <img src='./feat-pds.png' />
                         </a>
                       </div>
+                      <h2 className="recent-header"><span>Recent Articles</span></h2>
                       { pageLinks }
                     </div>
                   </div>
