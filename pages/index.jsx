@@ -37,7 +37,7 @@ class SiteIndex extends React.Component {
         return (
             <DocumentTitle title={ config.siteTitle }>
               <div>
-                <div className="mast" style={{backgroundImage:'url(./pages/about/homeMast.jpeg)'}}></div>
+                <div className="mast" style={{backgroundImage:'url(./about/homeMast.jpeg)'}}></div>
                 <SiteSidebar {...this.props}/>
                 <div className='content'>
                   <div className='main'>
