@@ -7,6 +7,7 @@ import access from 'safe-access'
 import { config } from 'config'
 import SiteSidebar from '../SiteSidebar'
 import './style.css';
+import './_page.scss';
 
 
 class SitePage extends React.Component {

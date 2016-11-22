@@ -4,7 +4,7 @@ date: 2014-4-14
 layout: post
 path: "/learn-gulp/"
 category: "FrontEnd"
-description: "Learn by doing"
+description: "Set up a server, watch for changes, compile, and live-update"
 mast: "learn-gulp.png"
 ---
 
