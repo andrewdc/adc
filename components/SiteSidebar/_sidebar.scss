@@ -1,0 +1,50 @@
+@import './static/css/core/core';
+.sidebar {
+  float:none;
+  width:100%;
+  top:0;
+  @include media('>medium') {
+    top:auto;
+    position:relative;
+    height:auto;
+    float:left;
+    width:30%;
+  }
+  .sidebar-inner {
+    padding:0px;
+    @include media('>medium') {
+      padding:40px;
+      margin-top:15px;
+    }
+  }
+}
+
+
+.profile {
+  position:absolute;
+  top:142px;
+  right:-33px;
+  img {
+    width:100px;
+    height:100px;
+  }
+  @include media('>medium') {
+    display:block;
+    top:-150px;
+    right:auto;
+    height:200px;
+    width:200px;
+    img {
+      width:200px;
+      height:200px;
+    }
+  }
+  
+}
+
+.copyright, .site-subtitle {
+  display:none;
+  @include media('>medium') {
+    display:block;
+  }
+}

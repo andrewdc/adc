@@ -1,0 +1,101 @@
+$core-vars: (
+  core: (
+    border-radius:   4px,
+    touch:           44px,
+    space:           1rem,
+    body-background: #fff,
+    body-height:     100%,
+    box-shadow:      (2px 6px 10px 0 rgba(0, 0, 0, 0.4)),
+    transition: (all 0.15s ease-in-out),
+    outline-thickness: 1px,
+    font-color: #333
+  ),
+  paths: (
+    img: "../img",
+    fonts: "../fonts",
+  ),
+  breakpoint: (
+    small: 0,
+    medium: 480px,
+    large: 1024px,
+    xlarge: 1280px,
+    xxlarge: 1440px,
+  ),
+  font: (
+    header: ("Rancho", sans-serif),
+    body:   ("Gudea", sans-serif),
+    weight--light:    300,
+    weight--regular:  400,
+    weight--normal:   400,
+    weight--semibold: 600,
+    weight--bold:     700,
+    size--default:    16px,
+    size--small:      12px,
+    size--fine:       10px,
+    size--action:     18px
+
+  ),
+  heading: (
+    h1-size--regular:    24px,
+    h1-padding--regular: 21px,
+    h1-size--large:      40px,
+    h1-padding--large:   30px,
+    h2-size--regular:    22px,
+    h2-padding--regular: 20px,
+    h2-size--large:      36px,
+    h2-padding--large:   28px,
+    h3-size--regular:    21px,
+    h3-padding--regular: 19px,
+    h3-size--large:      31px,
+    h3-padding--large:   25px,
+    h4-size--regular:    20px,
+    h4-padding--regular: 18px,
+    h4-size--large:      26px,
+    h4-padding--large:   22px,
+    h5-size--regular:    19px,
+    h5-padding--regular: 17px,
+    h5-size--large:      22px,
+    h5-padding--large:   20px,
+    h6-size--regular:    18px,
+    h6-padding--regular: 16px,
+    h6-size--large:      18px,
+    h6-padding--large:   18px,
+  ),
+  icon: (
+        size: 20px
+  ),
+  type: (
+    base-size:      16px,
+    base-line:      1.5em,
+    base-leading:   16px*1.375,
+  ),
+  color: (
+    white:          #ffffff,
+    black:          #000000,
+    primary:        #042D40,
+    primary--alt:   #075B7F,
+  ),
+  z-index: (
+    modal:      9000,
+    overlay:    8000,
+    dropdown:   7000,
+    navigation: 6000,
+    hud:        5500,
+    header:     5000,
+    footer:     4000,
+  ),
+);
+
+// Variables from _theme will be overridden if ALSO set in a map called $app-vars.
+// Add new variables to this map for your app
+// follow the pattern (see above:
+//
+//      module: (
+//       property: value,
+//       property2: value2
+//      ),
+//      module2: (
+//       property: value
+//      )
+//
+// ...etc...

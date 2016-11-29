@@ -77,3 +77,7 @@ In certain circumstances, you have no choice but to enjoy bad circumstances. Len
 [![Len](./20161114_202345.jpg)](./20161114_202345.jpg)
 
 At length Len slowly approached the bear and gently picked up his axe. I don't speak bear, but it certainly seemed to take a somewhat warm interest in Len. Len decided to make a gesture of thanks toward the bear for returning his axe, as well as...you know...not eating him. 
+
+[![Len](./IMG_20161126_072414.jpg)](./IMG_20161126_072414.jpg)
+
+Despite running out of sausages, the bear continued to follow Len. Odd as it might seem, I believe both Len and the bear were grateful for each others company. You might even say they were becoming friends. It's hard not to be Len's friend.

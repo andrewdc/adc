@@ -1,0 +1,14 @@
+@import './static/css/core/core';
+
+.blog-social {
+  @include media('<medium') {
+    position: fixed;
+    bottom:90px;
+    margin-top:0;
+    width:100%;
+    ul {
+      display:flex;
+      justify-content:flex-end;
+    }
+  }
+}

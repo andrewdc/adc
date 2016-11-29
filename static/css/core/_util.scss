@@ -1,0 +1,64 @@
+// PDS uses a nested variable map called with the use() function:
+// use(object, property)
+
+@function use($key, $value) {
+    // First check for variable overrides in app-vars
+
+  @if variable-exists(app-vars) {
+    @if (map-has-key($app-vars, $key)) {
+        @if (map-has-key( map-get($app-vars, $key), $value)) {
+          @return map-get(map-get($app-vars, $key), $value);
+        } @else {
+          @return map-get(map-get($core-vars, $key), $value);
+        }
+    } @else {
+    // No value was found in app-vars, so we fall back to the core map
+    @if map-has-key($core-vars, $key) {
+        @if map-get(map-get($core-vars, $key), $value){
+            @return map-get(map-get($core-vars, $key), $value);
+        } @else {
+            @warn '"#{$value}" not found in "#{$key}". Try:\a'
+            + '==============================\a'
+            + '\a'
+            + map-keys(map-get($core-vars, $key)) + '\a'
+            + '\a'
+            + '==============================';
+        }
+    } @else {
+       @warn '"#{$key}" was not found in $app-vars, or $core-vars \a'
+        + 'Available $core-vars keys: \a'
+        + '==============================\a'
+        + '\a'
+        + map-keys($core-vars) + '\a'
+        + '\a'
+        + '==============================';
+        }
+      }
+    } @else {
+      @if map-has-key($core-vars, $key) {
+          @if map-get(map-get($core-vars, $key), $value){
+              @return map-get(map-get($core-vars, $key), $value);
+          } @else {
+              @warn '"#{$value}" not found in "#{$key}". Try:\a'
+              + '==============================\a'
+              + '\a'
+              + map-keys(map-get($core-vars, $key)) + '\a'
+              + '\a'
+              + '==============================';
+          }
+      } @else {
+         @warn '"#{$key}" was not found in $app-vars, or $core-vars \a'
+          + 'Available $core-vars keys: \a'
+          + '==============================\a'
+          + '\a'
+          + map-keys($core-vars) + '\a'
+          + '\a'
+          + '==============================';
+          }
+    }
+}
+
+//Super easy z-index map-get
+@function z($layer) {
+    @return use(z-index, $layer);
+}

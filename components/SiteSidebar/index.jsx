@@ -5,6 +5,7 @@ import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
+import './_sidebar'
 import profilePic from '../../pages/photo.jpg'
 
 class SiteSidebar extends React.Component {
@@ -14,14 +15,14 @@ class SiteSidebar extends React.Component {
 
         let header = (
         <header>
-          <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-          <img src={profilePic} width='75' height='75' />
+          <Link className="profile" style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
+          <img src={profilePic} />
           </Link>
           { isHome ? (
             <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
             ) :
             <h2><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h2> }
-          <p>
+          <p className="site-subtitle">
             { config.siteDescr }
           </p>
         </header>
@@ -31,9 +32,7 @@ class SiteSidebar extends React.Component {
             <div className='sidebar'>
               <div className='sidebar-inner'>
                 <div className='blog-details'>
-                  <header>
                     { header }
-                  </header>
                 </div>
                 <div className='blog-options'>
                   <SiteNav {...this.props}/>

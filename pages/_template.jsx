@@ -3,10 +3,10 @@ import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import { config } from 'config'
 
-import '../static/css/_include-media.scss'
 import '../static/css/reset.css'
 import '../static/css/base.css'
 import '../static/css/typography.css'
+import '../static/css/app.scss'
 
 class Template extends React.Component {
     render() {
