@@ -1,5 +1,5 @@
 ---
-title: "Illustration Pieces and Projects"
+title: "Illustration"
 layout: page
 path: "/illustration"
 mast: "ill.jpg"

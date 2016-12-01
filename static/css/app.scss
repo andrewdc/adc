@@ -7,7 +7,7 @@
 header {
   
   position:absolute;
-  top:-230px;
+  top:-93px;
   width:100%;
   color:#fff;
   text-shadow:0 0px 6px hsla(0, 0%, 0%, 0.94), 1px 1px 0px #000,  -1px -1px 0px #000;
@@ -23,9 +23,11 @@ header {
 
 .content {
   @include media('<medium') {
-    padding-bottom:88px;
+    padding-bottom:44px;
     width:100%;
+    margin-left:0;
   }
+  margin-left:30%;
 }
 
 .recent-header {
@@ -51,7 +53,7 @@ header {
 }
 
 .mast {
-  height:15vh;
+  height:240px;
   margin-bottom:30px;
   background-position: center;
   background-repeat:no-repeat;
@@ -60,19 +62,7 @@ header {
     height:30vh;
   }
 }
-
-
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .grid > a {
   display: block;
   margin-bottom: 30px;
-  flex:1 0 auto;
-  margin-right:30px;
-}
-.grid img {
-  max-height:200px;
 }

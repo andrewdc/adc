@@ -15,7 +15,7 @@ I am also a huge proponent of modular (or component) design architectures, which
 
 Here is [my resume](https://docs.google.com/document/d/1PfFxQgbXlFGRd_xbFDfXSMPG8BSVwuSlZfKVpsGmPkw/edit?usp=sharing), and my work history is also available on [LinkedIn](https://www.linkedin.com/in/andrewdc).
 
-## Design Systems
+<h2 class="recent-header"><span>Design Systems</span></h2>
 
 ### PowerSchool Design System
 
