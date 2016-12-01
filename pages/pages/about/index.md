@@ -47,6 +47,6 @@ Several years later I came up with version 2.0, which was a static site, generat
 
 I had way too much fun creating  version 2.0. Drawing all of the illustrative elements was a total blast. I mean, why have a boring footer, when you could have:
 
-![Log Footer](../log-footer.gif)
+![Log Footer](./log-footer.gif)
 
 The 2.0 design carried a huge amount of my personality (obviously, I _hate_ video games. Wait...what?), however I believe it was weak in it's overall purpose. Looking at this now, I think the same feeling could have been conveyed in a less direct way.
