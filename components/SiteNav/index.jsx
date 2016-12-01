@@ -27,8 +27,8 @@ class SiteNav extends React.Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to={prefixLink('/contact/')} className={ location.pathname === prefixLink('./contact/') ? "current" : null }> Contact <span>me</span>
-                  </Link>
+                  <a href="mailto: &#97;&#110;&#100;&#114;&#101;&#119;&#46;&#100;&#101;&#115;&#105;&#103;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Contact me</a>
+                
                 </li>
               </ul>
             </nav>

@@ -22,7 +22,7 @@ Here is [my resume](https://docs.google.com/document/d/1PfFxQgbXlFGRd_xbFDfXSMPG
 
 * I enjoy working with modern JS frameworks such as _React_ and _Angular_. 
 * I am a _huge_ proponent of building _Design Systems_ of UI components to support organizations. 
-* I believe in a modular/object based approach to building CSS and HTML. Read about [that here](/objects-in-space/).
+* I believe in a modular/object based approach to building CSS and HTML. Read about [that here](../objects-in-space/).
 
 Along with my design and development experience, I spent a great deal of my education learning traditional drawing and painting. Recently I have returned to my illustration roots because it is and something I also love doing. Though I have experience creating artwork digitally, I have found using traditional tools such as ink and watercolor to be a nice compliment to my digital and software work.
 
