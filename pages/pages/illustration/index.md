@@ -9,7 +9,15 @@ mast: "ill.jpg"
 
 [![Len](./len/len-ready.jpg)](./len/)
 
-*My goal for Inktober 2016 was to create or develop a character every day. In the end, I came up with [Lonely Lenny](./len/) and kept him running.*
+My goal for Inktober 2016 was to create or develop a character every day. In the end, I came up with [Lonely Lenny](./len/) and kept him running.
+
+## Team Process
+
+One of the teams I worked with at Incomm Digital Solutions came up with an agile process that worked well for us. I created this graphic to represent what that looked like:
+
+[![Agile Process with Git](./workflow-chart.jpeg)](https://medium.com/@wtc/one-agile-process-to-bring-them-all-61eab4e7a982#.lvmvszdr3)
+
+This illustration accompanied an article I wrote [on Medium](https://medium.com/@wtc/one-agile-process-to-bring-them-all-61eab4e7a982#.lvmvszdr3).
 
 ***
 
