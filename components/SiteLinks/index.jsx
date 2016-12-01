@@ -16,6 +16,9 @@ class SiteLinks extends React.Component {
                   <a href={ config.siteInstagram }><i className='fa fa-instagram'></i></a>
                 </li>
                 <li>
+                  <a href={ config.siteDribbbleUrl }><i className='fa fa-dribbble'></i></a>
+                </li>
+                <li>
                   <a href={ config.siteLinkedin }><i className='fa fa-linkedin'></i></a>
                 </li>
                 <li>
