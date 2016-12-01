@@ -62,7 +62,21 @@ header {
     height:30vh;
   }
 }
+
+
 .grid > a {
   display: block;
   margin-bottom: 30px;
+}
+
+
+.grid {
+  @include media('>medium') {
+    display:flex;
+    & > a {
+      margin-left:30px;
+      margin-bottom: 30px;
+    }
+
+  }
 }
