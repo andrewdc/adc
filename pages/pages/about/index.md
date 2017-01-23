@@ -41,7 +41,7 @@ The first rendition of this site was built with Wordpress and looked like this.
 
 ### andrewdc 2.0
 
-Several years later I came up with version 2.0, which was a static site, generated with a framework called Ruhoh.
+Several years later I came up with version 2.0, which was a static site, generated with a framework called [Ruhoh](http://ruhoh.com/).
 
 ![andrewdc 2.0](./adc2.jpg)
 

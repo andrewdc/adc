@@ -65,17 +65,28 @@ header {
 
 
 .grid > a {
+  flex:1;
   display: block;
   margin-bottom: 30px;
 }
 
 
 .grid {
+  display:flex;
+  flex-wrap:wrap;
   @include media('>medium') {
     display:flex;
+    flex-wrap:wrap;
     & > a {
+      flex:auto;
+      width:250px;
+      margin:.5vw;
       margin-left:30px;
       margin-bottom: 30px;
+    }
+    img {
+      width:100%;
+      height:auto;
     }
 
   }

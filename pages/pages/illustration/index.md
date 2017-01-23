@@ -4,6 +4,57 @@ layout: page
 path: "/illustration"
 mast: "ill.jpg"
 ---
+My live outlet for my illustration work is through Instagram: [@bullet_and_whiskey](https://www.instagram.com/bullet_and_whiskey/). Feel free to drop by and say hello! Here are a few highlights:
+
+
+<div class='grid'>
+  <a href='./MerryStarWarsMas.jpg'>
+    <img src='./MerryStarWarsMas.jpg' />
+  </a>
+  <a href='./walker.jpg'>
+    <img src='./walker.jpg' />
+  </a>
+  <a href='./iceshack.jpg'>
+    <img src='./iceshack.jpg' />
+  </a>
+  <a href='./potbelly.jpg'>
+    <img src='./potbelly.jpg' />
+  </a>
+  <a href='./k2so.jpg'>
+    <img src='./k2so.jpg' />
+  </a>
+  <a href='./slimebattle.jpg'>
+    <img src='./slimebattle.jpg' />
+  </a>
+  <a href='./early-cabin.jpg'>
+    <img src='./early-cabin.jpg' />
+  </a>
+  <a href='./lantern.jpg'>
+    <img src='./lantern.jpg' />
+  </a>
+  <a href='./oddcastle.jpg'>
+    <img src='./oddcastle.jpg' />
+  </a>
+  <a href='./bb8.jpg'>
+    <img src='./bb8.jpg' />
+  </a>
+  <a href='./inkbottlestation.jpg'>
+    <img src='./inkbottlestation.jpg' />
+  </a>
+  <a href='./quest.jpg'>
+    <img src='./quest.jpg' />
+  </a>
+  <a href='./cabinsketches.jpg'>
+    <img src='./cabinsketches.jpg' />
+  </a>
+  <a href='./christmaslen.jpg'>
+    <img src='./christmaslen.jpg' />
+  </a>
+  <a href='./evo3d.jpg'>
+    <img src='./evo3d.jpg' />
+  </a>
+</div>
+
 
 ## [Lonely Lenny from Inktober 2016](./len/)
 
