@@ -51,6 +51,8 @@ git push origin :gh-pages
 
 Then try `git subtree push --prefix public origin gh-pages` again.
 
+Thanks so [Sacha Greif](https://github.com/SachaG) and of course [Kyle Mathews](https://github.com/KyleAMathews). Full [discussion here](https://github.com/gatsbyjs/gatsby/issues/6) on Github.
+
 Hack on, Friends!
 
 ~adc
