@@ -53,6 +53,13 @@ Then try `git subtree push --prefix public origin gh-pages` again.
 
 Thanks so [Sacha Greif](https://github.com/SachaG) and of course [Kyle Mathews](https://github.com/KyleAMathews). Full [discussion here](https://github.com/gatsbyjs/gatsby/issues/6) on Github.
 
+_Bonus_: Add a build and subtree push `npm run deploy` command to your `package.json`
+`````
+"scripts": {
+ ...
+  "deploy": "gatsby build && git subtree push --prefix public origin gh-pages"
+},
+`````
 Hack on, Friends!
 
 ~adc
