@@ -41,10 +41,16 @@ _ouch..._
 
 It makes sense though, because the Github web interface is creating a file that isn't tracked by your local stuff, and is outside of your process. 
 
-The Solution? Simply add your own CNAME file into your output directory (mine is `/public`) and then run your subtree push. If, like me, you already totes borked your `gh-pages` branch you can wipe it out with:
+<h2 class="recent-header"><span>The Solution?</span></h2>
+
+Simply add your own CNAME file into your output directory (mine is `/public`) and then run your subtree push. If, like me, you already totes borked your `gh-pages` branch you can wipe it out with:
 
 `````
 git push origin :gh-pages
 `````
 
 Then try `git subtree push --prefix public origin gh-pages` again.
+
+Hack on, Friends!
+
+~adc
