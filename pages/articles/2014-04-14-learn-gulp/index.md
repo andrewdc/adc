@@ -1,5 +1,5 @@
 ---
-title: Learn Gulp by Build a Static Site Generator
+title: Learn Gulp by Building a Static Site Generator
 date: 2014-4-14
 layout: post
 path: "/learn-gulp/"
