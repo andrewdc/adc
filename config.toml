@@ -10,6 +10,6 @@ siteDribbbleUrl ="https://dribbble.com/adc"
 siteInstagram = "https://www.instagram.com/bullet_and_whiskey/"
 siteLinkedin = "https://www.linkedin.com/in/andrewdc"
 
-googleAnalyticsId = ""
+googleAnalyticsId = "UA-90869201-1"
 
 linkPrefix = "/adc"

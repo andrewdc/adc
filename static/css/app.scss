@@ -74,6 +74,9 @@ header {
 .grid {
   display:flex;
   flex-wrap:wrap;
+  & > a {
+    flex:0 1 auto;
+  }
   @include media('>medium') {
     display:flex;
     flex-wrap:wrap;
