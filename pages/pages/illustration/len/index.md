@@ -82,6 +82,21 @@ At length Len slowly approached the bear and gently picked up his axe. I don't s
 
 Despite running out of sausages, the bear continued to follow Len. Odd as it might seem, I believe both Len and the bear were grateful for each others company. You might even say they were becoming friends. It's hard not to be Len's friend.
 
+[![Len](./christmasLen.jpg)](./christmasLen.jpg)
+
+Whether the bear was technically "helping" Len with Christmas decorations could be debated. They were clearly both having a wonderful time, regardless. Merry Christmas, All!
+
+<h2 class="recent-header"><span>Some Special Visits</span></h2>
+
+[![Len](./jaredLen.jpg)](https://www.jaredkohn.com/shop)
+
+In fact, Len did pay your fine cabin a visit, Jared. A very Merry Christmas to [@mountain_lines](https://www.instagram.com/mountain_lines/) and his family. (who deserves full creative genius credit for this drawing. I just recreated and modified it here. Seriously, go follow him) 
+Thanks for inspiring me to draw stuff, brother!
+
+[![Len](./michaelLen.jpg)](https://www.etsy.com/shop/ArtbyDustyBrockway)
+
+[@dustybrockway](https://www.instagram.com/dustybrockway/) (who came up with the original this is a copy of) creates such magical realms, they became a natural destination for Len and the Bear, along their many adventures together. ... Michael has been a great encouragement to me since I started scrawling rubbish on instagram. His artwork is fantastic, and you should follow him for sure. Merry Christmas brother!
+
 <h2 class="recent-header"><span>Additional Thoughts</span></h2>
 
 Inktober was probably the most fun thing I have done creatively in recent memory. Every day I tried to challenge myself with something new. I feel so much more confident in my drawing and inking skill with each passing day. Not to mention, following along with the incredible community of talented folks on Instagram was a treat. I can hardly wait until next year!
