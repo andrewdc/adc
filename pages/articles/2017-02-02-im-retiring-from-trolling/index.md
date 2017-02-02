@@ -8,7 +8,7 @@ description: "That time I retired from Photoshop trolling"
 mast: "iranfakemissles.png"
 ---
 
-## This Some OG FakeNews, Right Here
+## This Some Serious OG FakeNews, Right Here
 
 So recently this image was used in the lede by The Drudge Report, which I 'capped with a little context:
 
@@ -55,4 +55,8 @@ Regardless, [The Alantic](https://www.theatlantic.com/international/archive/2012
 
 *Oh, How horrid! It's the CG rabbit thing from those Star Wars parodies.*
 
-I only wish I had a troll counter embedded in this image so I could tell how many news consumers ended up spying Jar Jar Binks in a news lede. At the end of the day, I will never out-troll this image, so I guess I'm retired now. 
+I only wish I had a troll counter embedded in this image so I could tell how many news consumers ended up spying Jar Jar Binks in a news lede. 
+
+At the end of the day, this is bittersweet. I will **never** out-troll this image, so I guess I'm retired now. Peace out. ;P
+
+-adc
