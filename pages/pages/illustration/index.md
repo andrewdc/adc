@@ -8,8 +8,8 @@ My live outlet for my illustration work is through Instagram: [@bullet_and_whisk
 
 
 <div class='grid'>
-  <a href='./MerryStarWarsMas.jpg'>
-    <img src='./MerryStarWarsMas.jpg' />
+  <a href='./kipper.jpg'>
+    <img src='./kipper.jpg' />
   </a>
   <a href='./walker.jpg'>
     <img src='./walker.jpg' />
@@ -44,14 +44,17 @@ My live outlet for my illustration work is through Instagram: [@bullet_and_whisk
   <a href='./quest.jpg'>
     <img src='./quest.jpg' />
   </a>
+  <a href='./evo3d.jpg'>
+  <img src='./evo3d.jpg' />
+  </a>
   <a href='./cabinsketches.jpg'>
     <img src='./cabinsketches.jpg' />
   </a>
   <a href='./christmaslen.jpg'>
     <img src='./christmaslen.jpg' />
   </a>
-  <a href='./evo3d.jpg'>
-    <img src='./evo3d.jpg' />
+  <a href='./MerryStarWarsMas.jpg'>
+    <img src='./MerryStarWarsMas.jpg' />
   </a>
 </div>
 
