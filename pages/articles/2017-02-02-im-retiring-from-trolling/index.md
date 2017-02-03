@@ -71,3 +71,7 @@ I guess I can retire now. ;P
 It's been real. 
 
 -adc
+
+I guess it actually became a Moment. HAHAHAHA! I'm so happy...
+
+<a class="twitter-moment" href="https://twitter.com/i/moments/827207814984638467">Confusion abounds over Jar Jar Binks&#39; appearance on Drudge Report</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
