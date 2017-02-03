@@ -72,6 +72,8 @@ It's been real.
 
 -adc
 
-I guess it actually became a Moment. HAHAHAHA! I'm so happy...
+<h2 class="recent-header"><span>This is incredible</span></h2>
+
+It actually became a Moment on Twitter. HAHAHAHA! Glorious...
 
 <a class="twitter-moment" href="https://twitter.com/i/moments/827207814984638467">Confusion abounds over Jar Jar Binks&#39; appearance on Drudge Report</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
