@@ -4,7 +4,7 @@ date: 2017-02-02
 layout: post
 path: "/misa-unsub-from-adobecc-forever/"
 category: "Photoshop, trolling, blog, Iran, Fake News Missiles, Drudge Report, JarJ ar Binks"
-description: "That time I retired from Photoshop trolling"
+description: "L'affaire JarJar, or That time I retired from Photoshop trolling"
 mast: "iranfakemissles.png"
 ---
 
