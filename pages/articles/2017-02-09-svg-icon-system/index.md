@@ -16,7 +16,7 @@ Also, consider our specific scenario and browser support requirements. You might
 
 - Replace font based icon system with svgs (done, thx Una!)
 - Maintain CSS control over icon presentation (think color, etc)
-- Use the [**external** svg use](https://css-tricks.com/svg-use-with-external-reference-take-2/) method
+- Use the [**external** svg use](https://css-tricks.com/svg-use-with-external-reference-take-2/) method (in the end, we use both)
 - Support modern browsers,  IE11 and Microsoft Edge
 - NOT use [this script](https://github.com/jonathantneal/svg4everybody) polyfill script (explained why below)
 
@@ -62,7 +62,15 @@ Regardless - gulp works in it's typically straightforward conveyor-belt fashion,
 
 ![factorio belt](./factoriobelt2.gif)
 
-Later, in our application we could simply do this:
+Later, one of my teammates informed me that we could simple use the newer `<link>` tag, and that we were already polyfilling this functionality. This is must simpler, it's almost criminal:
+
+```
+<!-- This requires the webcomponents-lite polyfill, but it's totally worth it -->
+<link rel="import" href="/path/to/sprite.svg" />
+```
+You have to be joking right? That...just works? Yep. Peace out `gulp-inject`. 
+
+Regardless of how we inject - Later, in our application we could simply do this:
 
 ```
 <svg class="icon-settings-s">
@@ -179,6 +187,54 @@ The syntax isn't wonderful, but we will probably create a polymer component that
 ```
 
 At a later date, we can deprecate the inline approach globally via the component, as browser support changes.
+
+## A Polymer Component Appears
+
+Speaking of polymer, we ran into some trouble here as well. (What a surprise, right?) Basically, because polymer components inject things as shadowy DOM, the browser doesn't exactly know when certain DOM exists (at least with SVG use tags). Perhaps it's better just to show you the component code, then explain with comments:
+
+_Note: our system is called PowerSchool Design System, thus the PDS namespace_
+```
+import {PdsWidget} from './PdsWidget';
+let xlinkns = 'http://www.w3.org/1999/xlink'; 
+//this was needed to be valid, but was annoying to have below
+
+export class PdsIcon extends PdsWidget {
+  is = 'pds-icon';
+  name: string; //We are going to use a name="" attribute to set the class and icon ID
+  querySelectorAll: Function;
+
+  properties = {
+    name: {
+      type: String,
+      observer: '_nameObserver'
+    }
+  };
+  messageKeysUpdated(): void {
+
+  }
+  _nameObserver(): void {
+    let elements = this.querySelectorAll('use');
+     //each svg tag has two use children for internal and external
+    if (elements != null && elements.length === 2) {
+      elements[0].setAttributeNS(xlinkns, 'xlink:href', '#' + this.name);
+      elements[1].setAttributeNS(xlinkns, 'xlink:href', powerSchoolDesignSystemToolkit.svgSpritePath + '#' + this.name); 
+      //We set the external path to be easily changed in any application
+    }
+  }
+}
+```
+And here is what the polymer template looks like:
+```
+<template>
+  <svg class$="pds-icon-[[name]]">
+    <use xlink:href=""></use> 
+    <use xlink:href=""></use>
+  </svg>
+</template>
+```
+Essentially, the problem seemed to be that we needed to set all of the use bits with JS, rather than directly with Polymer `[[name]]` (as it would hide this DOM from the browsers).
+
+I don't really know. It was nuts. But hey, we got it working. Now we have the best of both worlds, and we can very easily update/depricate the internal approach as the tech evolves.
 
 I'd love to hear anyone else's thoughts on this, though. Drop me a line on [Twitter @wtc](http://twitter.com/wtc). 
 
