@@ -2,7 +2,7 @@
 title: "Goals"
 layout: page
 path: "/goals"
-mast: "cabin-alt.jpg"
+mast: "castlemast.jpg"
 ---
 Mostly just a test:
 
