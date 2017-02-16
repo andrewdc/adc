@@ -1,10 +1,9 @@
 ---
-title: "Goals"
+title: "Doing it live"
 layout: page
 path: "/goals"
 mast: "castlemast.jpg"
 ---
-Mostly just a concept so far, but my chances of achieving goals increases exponentially when I share them with others. 
 
 <a class="twitter-timeline" 
   data-dnt="true" href="https://twitter.com/search?q=from%3A%40wtc%20AND%20%23ding" 
