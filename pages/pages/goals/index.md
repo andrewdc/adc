@@ -4,11 +4,12 @@ layout: page
 path: "/goals"
 mast: "castlemast.jpg"
 ---
-Mostly just a test:
+Mostly just a concept so far, but my chances of achieving goals increases exponentially when I share them with others. 
 
 <a class="twitter-timeline" 
   data-dnt="true" href="https://twitter.com/search?q=from%3A%40wtc%20AND%20%23ding" 
   data-chrome="noheader, nofooter, noborders"
+  data-width="100%"
   data-widget-id="832281685970546689">Nailed it! right...?</a>
 <script>
   !function(d,s,id) { 
