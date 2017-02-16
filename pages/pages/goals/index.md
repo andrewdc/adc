@@ -22,13 +22,3 @@ Mostly just a test:
     }
   }(document,"script","twitter-wjs");
 </script>
-widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, "script", "twitter-wjs"); <
-/script>
-widgets.js ";
-fjs.parentNode.insertBefore(js, fjs);
-}
-}(document, "script", "twitter-wjs"); <
-/script>
