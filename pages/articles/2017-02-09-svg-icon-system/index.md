@@ -118,6 +118,8 @@ At this point, we do not understand exactly why the relative svg's don't work. O
 
 Or something.
 
+_Note: just try writing your own. I needed to, as you will see later._
+
 ## What happens if you use both at the same time?
 
 One of the brilliant devs on our team, who somehow just pops in and solves all our problems, suggested, "Can we just use both and stack them?"
@@ -237,5 +239,19 @@ Essentially, the problem seemed to be that we needed to set all of the use bits 
 I don't really know. It was nuts. But hey, we got it working. Now we have the best of both worlds, and we can very easily update/depricate the internal approach as the tech evolves.
 
 I'd love to hear anyone else's thoughts on this, though. Drop me a line on [Twitter @wtc](http://twitter.com/wtc). 
+
+## Update: A new challenger appears!
+
+Many of our applications use a build tool (e.g. gulp, webpack) to inject the svg sprite into the html, where the `<link rel="import" ..etc.. >` method isn't supported. This is quicker for the client as it require no external loading or extra request. However, some of the applications we support do not use a build tool that we support, so we needed a runtime polyfill. For reasons still unknown to me, [webcomponents-lite](https://github.com/webcomponents/webcomponentsjs) was just not working. 
+
+So, since we didn't want to introduce any new dependency, I wrote our own with plain JS. It's a bit hacky and specific, (which is why I'm just posting an image), but it does the job:
+
+![YAY, just JS](./ie11-polyfill.png)
+
+This script looks for the link tag(s), collects the sprite path from the href attribute, then downloads and shoves the sprite file contents into a div.
+
+Now, this might not be ideal - as it makes a synchronous blocking request on the main thread. Oddly, in our specific case, we actually don't want any of our other stuff to run before the sprite is in place, so it works for now. I will be back if we update this. 
+
+Hack on, my friends!
 
 -Adc
