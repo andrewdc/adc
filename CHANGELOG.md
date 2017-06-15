@@ -2,6 +2,13 @@
 
 ##### Bug Fixes
 
+* **build-script:** adds build add and commit to chain (671ba4b1)
+* **package:** testing adding the build into release script (117df082)
+
+#### 1.1.1 (2017-6-15)
+
+##### Bug Fixes
+
 * **package:** testing adding the build into release script (117df082)
 
 ### 1.1.0 (2017-6-15)
