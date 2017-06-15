@@ -2,6 +2,15 @@
 
 ##### Bug Fixes
 
+* **package:**
+  * of course the script wouldn't know my git add all alias. Duh. (fa4b1a8f)
+  * testing adding the build into release script (117df082)
+* **build-script:** adds build add and commit to chain (671ba4b1)
+
+#### 1.1.1 (2017-6-15)
+
+##### Bug Fixes
+
 * **build-script:** adds build add and commit to chain (671ba4b1)
 * **package:** testing adding the build into release script (117df082)
 
