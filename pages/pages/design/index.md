@@ -25,11 +25,13 @@ A pattern and component library being built from the ground up.
 
 I was tapped, along with two other developers to build a company-wide design system for PowerSchool. It is a component library built with Sass, Angular 2, and Polymer, and consumed by several applications. 
 
+![PowerSchool Layout](./pds-layout.jpg)
+
 The system utilizes a flexible theme system, where we can provide the base design for the organization, but also allow each team the flexibility to customize and extend the library to fit their application's unique needs. 
 
 ### nxsass for InComm Digital Solutions
 
-I teamed up with another designer to build a modular Sass design. 
+I teamed up with another designer to build a modular Sass design system. 
 
 ![nxsass Main](./nxsass-main.png)
 
