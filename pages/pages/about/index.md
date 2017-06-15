@@ -29,7 +29,18 @@ Along with my design and development experience, I spent a great deal of my educ
 
 <h2 class="recent-header"><span>About This Site</span></h2>
 
-This site was built with [Gatsby](https://github.com/gatsbyjs/gatsby), which is a static site tool built with the new-school hottness of React and Webpack. My goal was to have total control of my site if I wanted it, but also something that got out of my way when I just wanted to create and publish content. 
+This site is built with [Gatsby](https://github.com/gatsbyjs/gatsby), which is a static site tool built with the new-school hottness of React and Webpack. My goal was to have total control of my site if I wanted it, but also something that got out of my way when I just wanted to create and publish content. 
+
+![dat code tho](./thissite.jpg)
+_Isn't that code beautiful?_
+
+All I need to do to publish new content is to `build` and run `ghp`, an alias for: 
+
+```
+git subtree push --prefix public origin gh-pages
+```
+
+In this way, my 'cms' is whatever editor I love best (currently Atom or Vim). Sweet.
 
 <h2 class="recent-header"><span>History Museum</span></h2>
 
