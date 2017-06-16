@@ -42,6 +42,10 @@ git subtree push --prefix public origin gh-pages
 
 In this way, my 'cms' is whatever editor I love best (currently Atom or Vim). Sweet.
 
+In fact, if you like, you are welcome to check out my code here: [http://github.com/andrewdc/adc](http://github.com/andrewdc/adc)
+
+My automatically generated changelog can be found here: [CHANGELOG.md](https://github.com/andrewdc/adc/blob/master/CHANGELOG.md)
+
 <h2 class="recent-header"><span>History Museum</span></h2>
 
 ### andrewdc 1.0

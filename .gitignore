@@ -5,3 +5,4 @@ node_modules/
 pages/.manifest
 .idea
 gatsby-starter-lumen.iml
+*.un~
