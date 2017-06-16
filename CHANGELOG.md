@@ -1,3 +1,9 @@
+#### 1.1.2 (2017-6-16)
+
+##### Documentation Changes
+
+* **about:** adds details about site files, adds *.un~ to gitignore (8a89c8e6)
+
 #### 1.1.1 (2017-6-15)
 
 ##### Bug Fixes
