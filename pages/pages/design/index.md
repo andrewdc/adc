@@ -5,7 +5,7 @@ path: "/design"
 mast: "code.jpg"
 ---
 
-In 2005, I graduated with a degree in multimedia design from the University of Oregon. I was trained in traditional design, but I always had a deep interesting in web development. Over the years, I have spent the bulk of my career working between the two disciplines. I like to say: 
+In 2005, I graduated with a degree in multimedia design from the University of Oregon. I was trained in traditional design, but I always had a deep interest in web development. Over the years, I have spent the bulk of my career working between the two disciplines. I like to say: 
 
 >"I design with code."
 
