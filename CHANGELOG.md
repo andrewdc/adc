@@ -1,3 +1,13 @@
+#### 1.1.3 (2017-6-21)
+
+##### New Features
+
+* **404:** content adjustment to 404 page (9512831f)
+
+##### Bug Fixes
+
+* **design:** corrects typo on design page (529fe545)
+
 #### 1.1.2 (2017-6-16)
 
 ##### Documentation Changes
