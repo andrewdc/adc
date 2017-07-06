@@ -1,3 +1,10 @@
+#### 1.1.4 (2017-7-6)
+
+##### Bug Fixes
+
+* **images:** processed all images and optimized with imgOpt (33234973)
+* **illustration:** optimized illustration images (669bf911)
+
 #### 1.1.3 (2017-6-21)
 
 ##### New Features
