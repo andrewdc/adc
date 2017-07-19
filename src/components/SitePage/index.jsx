@@ -4,7 +4,7 @@ import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import DocumentTitle from 'react-document-title'
 import access from 'safe-access'
-import { config } from 'config'
+// import { config } from 'config'
 import SiteSidebar from '../SiteSidebar'
 import './style.css';
 import './_page.scss';

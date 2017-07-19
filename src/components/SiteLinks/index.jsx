@@ -1,7 +1,7 @@
 import React from 'react'
 import { RouteHandler, Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import { config } from 'config'
+// import { config } from 'config'
 import './style.css'
 import '../../static/fonts/fontawesome/style.css'
 import './_sitelinks.scss'

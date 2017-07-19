@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router'
+import { Link } from 'gatsby-link'
 import sortBy from 'lodash/sortBy'
 import moment from 'moment'
 import DocumentTitle from 'react-document-title'
 import { prefixLink } from 'gatsby-helpers'
 import access from 'safe-access'
-import { config } from 'config'
+// import { config } from 'config'
 import SitePost from '../components/SitePost'
 import SiteSidebar from '../components/SiteSidebar'
 
